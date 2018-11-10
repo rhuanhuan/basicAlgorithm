@@ -1,30 +1,26 @@
-package linkedList;
+package linkedList.basicImplement;
 
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
 /*
-- FIFO
-- When for-each, in the order of added order
- */
-public class Queue<T> implements Iterable<T> {
+- Bag do not support remove element, it's a collection for all to use.
+- unordered
+*/
+public class Bag<T> implements Iterable<T> {
 
-  void enqueue(T item) {
+  public void add(T item) {
   }
 
-  // Remove the earliest enqueued element
-  T dequequ(){
-    return null;
-  }
-
-  boolean isEmpty(){
+  public boolean isEmpty() {
     return false;
   }
 
-  int size(){
+  public int size(){
     return 0;
   }
+
 
   @Override
   public Iterator<T> iterator() {

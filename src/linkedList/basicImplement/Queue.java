@@ -1,26 +1,25 @@
-package linkedList;
+package linkedList.basicImplement;
 
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
 /*
-- LIFO
-- When for-each, opposite to it's added order.
+- FIFO
+- When for-each, in the order of added order
  */
-public class Stack<T> implements Iterable<T> {
+public class Queue<T> implements Iterable<T> {
 
-  void push(T item){
-
+  void enqueue(T item) {
   }
 
-  // Remove newest added element
-  T pop(){
+  // Remove the earliest enqueued element
+  T dequequ(){
     return null;
   }
 
   boolean isEmpty(){
-    return true;
+    return false;
   }
 
   int size(){

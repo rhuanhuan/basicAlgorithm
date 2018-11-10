@@ -1,26 +1,31 @@
-package linkedList;
+package linkedList.basicImplement;
 
 import java.util.Iterator;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
 /*
-- Bag do not support remove element, it's a collection for all to use.
-- unordered
-*/
-public class Bag<T> implements Iterable<T> {
+- LIFO
+- When for-each, opposite to it's added order.
+ */
+public class Stack<T> implements Iterable<T> {
 
-  public void add(T item) {
+  public void push(T item){
+
   }
 
-  public boolean isEmpty() {
-    return false;
+  // Remove newest added element
+  T pop(){
+    return null;
   }
 
-  public int size(){
+  boolean isEmpty(){
+    return true;
+  }
+
+  int size(){
     return 0;
   }
-
 
   @Override
   public Iterator<T> iterator() {
