@@ -1,4 +1,4 @@
-/*
+package binarySearch;/*
 1. The source int list should be in ascending order;
 2. compare the mid value with toBeFoundValue;
 3. change the [start, end] scope, until find the final result
